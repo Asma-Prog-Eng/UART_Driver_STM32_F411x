@@ -1,11 +1,4 @@
 
-/* Developo USART Tranceiver
- * USART peripheral : USART1
- * Rx Pin = PB7
- * Tx Pin = PB6
- *
- * */
-
 #include "stm32f4xx.h"
 
 #include "UART.h"

@@ -28,10 +28,10 @@ File → Import... → Existing Projects into Workspace
 ## Usage
 Initialization : uart_init(USART1, 4800) <br />
 Transmitting Data : a character is entered through RealTerm terminal <br />
-Receiving Data: uart_read(USART1)
-Transmitting the receiveed Data back to RealTerm to be displayed
-If key 1 is pressed , then LED is switched on
-Else LED is turned off, and the entered character is send back and displayed  on the serial terminal
+Receiving Data: uart_read(USART1) <br />
+Transmitting the receiveed Data back to RealTerm to be displayed <br />
+If key 1 is pressed , then LED is switched on <br />
+Else LED is turned off, and the entered character is send back and displayed  on the serial terminal <br />
 
 ## Project Structure
 

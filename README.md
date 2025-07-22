@@ -1,6 +1,6 @@
 Bare metal implementation  of a  UART driver for STM32 development board 
 ## Features
-UART initialization with configurable baud rates (4800, 9600 ,115200) and peripheral clock = 8MHz.
+UART initialization with configurable baud rates (4800, 9600 ,115200) and peripheral clock = 16MHz.
 ## Requirements
 ### Hardware
 - Discovery STM32 development board (STM32F411x series)

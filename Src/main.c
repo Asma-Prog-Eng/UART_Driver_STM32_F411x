@@ -1,14 +1,19 @@
-/****************************************************************
- * Bare metal implementation of UART Driver
- * Configurable baud rate : 4800, 9600 , 115200
+/**
+ ******************************************************************************
+ * @file           : main.c
+ * @author         : Asma Askri
+ * @brief          : Main program body
+ ******************************************************************************
+ * Bare metal implementation of a UART Driver
  * Usage:
- * a characeter is entered in RealTerm Terminal
+ * a character is entered in RealTerm Terminal
  * If it is = 1 , then User LED is switched on
  * Else LED is turned OFF
  * and the entered character is send back and displayed
  * on the serial terminal
- *
- ****************************************************************/
+ ******************************************************************************
+ */
+
 #include "stm32f4xx.h"
 
 #include "UART.h"
